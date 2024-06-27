@@ -5,6 +5,7 @@ on:
       - dev
       - stable
   pull_request:
+  workflow_dispatch:
 
 env:
   ARTIFACT_NAME: rz-ghidra-git
